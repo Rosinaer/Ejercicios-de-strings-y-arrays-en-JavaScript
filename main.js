@@ -4,7 +4,7 @@ function calcularAreaRectangulo(base, altura) {
   return base * altura;
 }
 
-console.log(calcularAreaRectangulo(6, 3)); // Resultado: 18
+console.log(calcularAreaRectangulo(6, 3));
 
 // 2. Contar palabras en una cadena
 
@@ -65,10 +65,10 @@ function esPalindromo(str) {
 }
 
 // Ejemplos
-console.log(esPalindromo("neuquen")); // true
-console.log(esPalindromo("Ana")); // true
-console.log(esPalindromo("rallar")); // true
-console.log(esPalindromo("hola")); // false
+console.log(esPalindromo("neuquen"));
+console.log(esPalindromo("Ana"));
+console.log(esPalindromo("rallar"));
+console.log(esPalindromo("hola"));
 
 // 5. Crear un programa para convertir la edad de un perro a años humanos
 
@@ -89,7 +89,7 @@ function convertirPrimeraLetraMayuscula(str) {
 }
 
 let frase2 = "hola qué tal";
-console.log(convertirPrimeraLetraMayuscula(frase2)); // Resultado: "Hola Qué Tal"
+console.log(convertirPrimeraLetraMayuscula(frase2));
 
 // 7. Generar los primeros N números de la sucesión de Fibonacci
 
@@ -101,9 +101,9 @@ function generarFibonacci(n) {
   return fibonacci.slice(0, n);
 }
 
-console.log(generarFibonacci(7)); // Resultado: [0, 1, 1, 2, 3, 5, 8]
-console.log(generarFibonacci(9)); // Resultado: [0, 1, 1, 2, 3, 5, 8, 13, 21]
-console.log(generarFibonacci(12)); // Resultado: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+console.log(generarFibonacci(7));
+console.log(generarFibonacci(9));
+console.log(generarFibonacci(12));
 
 // 8. Lista de Productos
 
